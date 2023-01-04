@@ -1,8 +1,31 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .logo {
     height: 75px;
 }
+
+.links, .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+button {
+    border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
