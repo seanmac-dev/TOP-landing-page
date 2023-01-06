@@ -47,21 +47,26 @@ ul {
     flex-direction: column;
 }
 
-.section-two {
+.sec-2 {
     background-color: white;
     color: black;
 }
 
-.section-two-title {
+.sec-2-title {
     display: flex;
     justify-content: center;
     font-weight: 36px;
     font-size: 36px;
 }
 
-.section-two-img {
+.sec-2-info {
     display: flex;
+    align-content: center;
     height: 100px;
     width: 100px;
     border-radius: 100%;
+}
+
+.sec-2-text {
+    
 }
