@@ -4,6 +4,7 @@ body {
     background-color: #1f2937;
     color: white;
     padding: 8px;
+    margin: auto;
 }
 
 .header {
@@ -22,7 +23,7 @@ body {
 .links, .logo {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 button {
@@ -35,11 +36,32 @@ button {
 
 ul {
     list-style-type: none;
-  }
+}
 
 .header-subsection {
     display: flex;
     font-size: 48px;
 }
 
+.hs-middle {
+    flex-direction: column;
+}
 
+.section-two {
+    background-color: white;
+    color: black;
+}
+
+.section-two-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 36px;
+    font-size: 36px;
+}
+
+.section-two-img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
