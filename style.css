@@ -50,6 +50,9 @@ ul {
 .sec-2 {
     background-color: white;
     color: black;
+    display: flex;
+    justify-content: center;
+    gap: 52px; 
 }
 
 .sec-2-title {
@@ -59,14 +62,12 @@ ul {
     font-size: 36px;
 }
 
-.sec-2-info {
-    display: flex;
-    align-content: center;
-    height: 100px;
+.sec-2-img {
     width: 100px;
+    height: 100px;
     border-radius: 100%;
 }
 
-.sec-2-text {
-    
+.sec-2-info {
+    max-width: 200px;
 }
