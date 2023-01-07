@@ -63,11 +63,15 @@ ul {
 }
 
 .sec-2-img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
+    padding: 0px;
 }
 
 .sec-2-info {
     max-width: 200px;
+    padding: 10px;
+    text-align: center;
 }
+
