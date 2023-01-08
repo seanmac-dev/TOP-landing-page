@@ -38,13 +38,18 @@ ul {
     list-style-type: none;
 }
 
-.header-subsection {
+.header-subsection, .hs-middle {
     display: flex;
+    justify-content: space-evenly;
     font-size: 48px;
 }
 
 .hs-middle {
-    flex-direction: column;
+    justify-content: center;
+}
+
+.hs-button {
+    display: flex;
 }
 
 .sec-2 {
