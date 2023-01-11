@@ -50,6 +50,8 @@ ul {
     background-color: white;
     color: black;
     font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .hs-button {
@@ -63,6 +65,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 52px; 
+    border-radius: 25px;
 }
 
 .sec-2-title {
@@ -90,6 +93,7 @@ ul {
 }
 
 .coin-info {
+    color: gray;
 }
 .sec-4-button {
     display: flex;
