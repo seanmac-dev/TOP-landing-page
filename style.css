@@ -95,6 +95,11 @@ ul {
 .coin-info {
     color: gray;
 }
+
+.sec-2-button {
+    color: white;
+    background-color: black;
+}
 .sec-4-button {
     display: flex;
     justify-content: center;
