@@ -85,6 +85,12 @@ ul {
     text-align: center;
 }
 
+.sec-2-text {
+    font-weight: bold;
+}
+
+.coin-info {
+}
 .sec-4-button {
     display: flex;
     justify-content: center;
