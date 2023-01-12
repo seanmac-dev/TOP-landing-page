@@ -40,7 +40,7 @@ ul {
     list-style-type: none;
 }
 
-.header-subsection, .hs-middle {
+.header-sub, .hs-middle {
     display: flex;
     justify-content: space-evenly;
     font-size: 48px;
@@ -67,7 +67,6 @@ ul {
     font-size: 18px;
     color: white;
     background-color: purple;
-
 }
 
 .sec-2 {
@@ -126,6 +125,7 @@ ul {
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
 .sec-4-button {
     display: flex;
     justify-content: center;
