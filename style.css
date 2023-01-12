@@ -10,6 +10,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    
     background-color: #1f2937;
     color: white;
     padding: 8px;
@@ -83,6 +84,7 @@ ul {
     justify-content: center;
     font-weight: 36px;
     font-size: 36px;
+    text-decoration-line: underline;
 }
 
 .sec-2-img {
@@ -122,6 +124,7 @@ ul {
 
 .sec-3 {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .sec-3-title {
@@ -129,11 +132,46 @@ ul {
     justify-content: center;
     font-weight: 36px;
     font-size: 36px;
+    text-decoration-line: underline;
+}
+
+.sec-3-info {
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sec-3-text {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
 }
 
 .sec-3-img {
     display: flex;
     height: 200px;
+}
+
+.steps {
+    flex-wrap: wrap;
+}
+
+.sec-4-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 36px;
+    font-size: 36px;
+}
+
+.sec-4 {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 52px; 
+    border-radius: 25px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .sec-4-button {
