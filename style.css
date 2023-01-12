@@ -26,8 +26,9 @@ body {
     gap: 24px;
 }
 
-button {
+.wallet-button {
     display: flex;
+    align-content: flex-end;
     border-radius: 12px;
     padding: 8px;
     font-size: 18px;
@@ -54,9 +55,19 @@ ul {
     padding: 10px;
 }
 
+.hs-img {
+    border-radius: 25px;
+}
+
 .hs-button {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: purple;
+
 }
 
 .sec-2 {
@@ -96,9 +107,18 @@ ul {
     color: gray;
 }
 
+.coin-info-2 {
+    color: green;
+}
+
 .sec-2-button {
+    text-align: center;
     color: white;
     background-color: black;
+    gap: 52px; 
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
 }
 .sec-4-button {
     display: flex;
