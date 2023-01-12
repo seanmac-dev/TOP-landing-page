@@ -120,6 +120,12 @@ ul {
     padding: 5px;
     margin: 5px;
 }
+
+.sec-3-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 .sec-4-button {
     display: flex;
     justify-content: center;
