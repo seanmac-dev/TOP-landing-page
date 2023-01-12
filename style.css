@@ -120,10 +120,20 @@ ul {
     margin: 5px;
 }
 
+.sec-3 {
+    display: flex;
+}
+
+.sec-3-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 36px;
+    font-size: 36px;
+}
+
 .sec-3-img {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    height: 200px;
 }
 
 .sec-4-button {
