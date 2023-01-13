@@ -26,7 +26,7 @@ body {
     gap: 24px;
 }
 
-.wallet-button {
+.launch-button {
     display: flex;
     align-content: flex-end;
     border-radius: 12px;
@@ -194,7 +194,15 @@ ul {
     font-weight: bold;
 }
 
-.sec-4-button {
+.sec-4-button-container {
     display: flex;
     justify-content: center;
+}
+
+.sec-4-button {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
 }
