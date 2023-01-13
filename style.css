@@ -10,7 +10,6 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    
     background-color: #1f2937;
     color: white;
     padding: 8px;
@@ -41,10 +40,20 @@ ul {
     list-style-type: none;
 }
 
+.vulcan-title {
+    font-family: fantasy;
+}
+
 .header-sub, .hs-middle {
     display: flex;
     justify-content: space-evenly;
     font-size: 48px;
+}
+
+.hs-info {
+    border: solid black;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .hs-middle {
@@ -56,16 +65,27 @@ ul {
     padding: 10px;
 }
 
+.vulcan-slogan {
+    display: flex;
+    justify-content: center;
+}
+
 .hs-img {
     border-radius: 25px;
 }
 
-.hs-button {
+.hs-button-container {
     display: flex;
     justify-content: center;
+}
+.hs-button {
+    display: flex;
     border-radius: 12px;
     padding: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-size: 18px;
+    font-weight: bold;
     color: white;
     background-color: purple;
 }
@@ -169,7 +189,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 52px; 
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 10px;
     font-weight: bold;
 }
